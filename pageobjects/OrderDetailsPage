@@ -1,0 +1,21 @@
+/*
+ const orderIdDetails = await page.locator(".col-text").textContent();
+   expect(orderId.includes(orderIdDetails)).toBeTruthy();//assert that the order id from the details page matches the one from the confirmation page   
+       //await page.pause();
+
+*/
+
+class OrderDetailsPage {
+
+    constructor(page) 
+    {
+        this.page = page;
+        this.orderIdDetails = page.locator(".col-text");
+    }    
+
+async getOrderIdDetails(){
+    return await this.orderIdDetails.textContent();
+}
+
+}
+module.exports = {OrderDetailsPage};

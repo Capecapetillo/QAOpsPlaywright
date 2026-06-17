@@ -1,0 +1,1 @@
+C:\Users\javier.romero\Documents\Playwright\PlayWrightAutomation2\tests\MoreValidations.spec.js-snapshots\landing-chrome-win32.png does not match, writing actual.

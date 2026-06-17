@@ -1,0 +1,23 @@
+{
+  "name": "playwrightautomation2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "WebTests": "npx playwright test --grep @Web",
+    "APItests": "npx playwright test --grep @API"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@azure/identity": "^4.13.1",
+    "@azure/playwright": "^1.1.6",
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.6.0",
+    "allure-playwright": "^3.10.0"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
